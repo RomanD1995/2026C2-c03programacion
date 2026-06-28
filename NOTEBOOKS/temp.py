@@ -5,18 +5,20 @@ cantidad_registrada = 0
 
 while True:
         print("\n------registro de temperatura------")
-        print("1.regiatrar temperatura")
-        print("2.reporte de temperatura")
-        print("3. salir")
+        print("1.regiatrar temperatura  ")
+        print("2.reporte de temperatura  ")
+        print("3. salir   ")
         
-        opcion = input ("ingrese una opcion del menu")
+        opcion = input ("ingrese una opcion del menu :")
         if opcion == "1":
                 temp = float(input("ingrese la temperatura"))
                 temperaturas.append(temp)
-                print(f"------tegistrado con exito-------")
+                print("\n")
+                print(f"------registrado con exito-------")
                 print("\n")
         elif opcion == "2":
-                print("reporte de temperaturas")
+                print("---reporte de temperaturas---")
+                print("\n")
                 cantidad = len (temperaturas)
                 print(f"cantidead de temperaturas rtejistradas : {cantidad}")
                 print(f"temperatura maxima : {max(temperaturas)}")
@@ -25,6 +27,6 @@ while True:
         elif opcion == "3":
                 print("cerrando aplicacion3")
                 break        
-        else:
+        else: 
                 print("opcion invalida")
         
