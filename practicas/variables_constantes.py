@@ -12,6 +12,7 @@ radio = int(input("ingrese el radio de su circulo en cm :"))
 area = PI * (radio ** 2)
 print("\n")
 print(f"su variable es ",radio,"en tipo de la misma es",type(radio))
-print("\n")
 print(f"-----el area de su circulo es de {area:.2f} cm2-----")
 print("\n")
+#usar comillas sencillas si se imporime solo 'texto'
+# a la par de 0
