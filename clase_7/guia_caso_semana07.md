@@ -42,7 +42,7 @@ Antes de programar, defina que estructura responde mejor a cada necesidad.
 ### Regla rapida de decision
 
 - Use **lista** si son varios valores que se recorren.
-- Use **diccionario** si cada dato tiene nombre propio.
+- Use **diccionario** si cada dato tiene nombre propio
 - Use **tupla** si necesita guardar un par fijo de resultado.
 - Use **set** si necesita eliminar repetidos automaticamente.
 

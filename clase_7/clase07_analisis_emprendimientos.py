@@ -67,7 +67,7 @@ for empredimiento in sedes:
     clasificacion = calcular_clasificacion(promedio_emprendiemto)
 
 
-    provincias.add(empredimiento["provincia"]) # Crea la colección sinb duplicar valores
+    provincias.add(empredimiento["provincia"]) # Crea la colección sin duplicar valores
     
     #print("\nEmprendimiento:", empredimiento["nombre"])
     #print("Total ventas:", total_emprendimiento)
@@ -91,3 +91,5 @@ imprimir_reporte(reporte)
 
 #print(reporte)
 print(provincias)
+
+reporte_final = imprimir_reporte(reporte)
